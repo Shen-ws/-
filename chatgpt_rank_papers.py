@@ -5,7 +5,7 @@ import pandas as pd
 import tqdm
 import os
 
-openai.api_key = "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"
+openai.api_key = "sk-"
 
 system_prompt = """You are an AI assistant. I will provide you with the title and abstract of a paper and ask for your help to analyze its relevance to Person Re-Identification, which includes Person Re-Identification, Person search, and Re-Identification. 
 The relevance is divided into three levels: 
