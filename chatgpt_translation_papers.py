@@ -5,7 +5,7 @@ import pandas as pd
 import tqdm
 import os
 
-openai.api_key = "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"
+openai.api_key = "sk"
 
 system_prompt = """我希望你能充当一个论文摘要总结和英语翻译助手，我将给你一段英文文本， 请严格按照如下步骤进行分析：
 1. 对输入的英文文本进行总结，要求不超过 200 个单词
